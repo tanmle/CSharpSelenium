@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {
+        "simpleTypes": {
+            "enum": [ "XPATH", "CSS", "ID", "NAME", "LINKTEXT" ]
+        }
+    },
+    "title": "Interface",
+    "type": "object",
+    "properties": {
+        "control": {
+            "type": "object",
+            "properties": {
+                    "controlType": {"type": "string", "$ref": "#/definitions/simpleTypes"},
+                    "controlValue": {"type": "string"}
+                }
+        }
+    }
+}

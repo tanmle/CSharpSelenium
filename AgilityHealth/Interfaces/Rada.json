@@ -1,0 +1,6 @@
+﻿{
+    "dynamicRadaNameLabel": {
+        "controlType": "XPATH",
+        "controlValue": "//h5[@id='radar_anchor' and contains(.,'{0}')]"
+    }
+}

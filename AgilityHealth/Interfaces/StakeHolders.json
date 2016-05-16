@@ -1,0 +1,10 @@
+﻿{
+    "dynamicStakeNameCheckbox": {
+        "controlType": "XPATH",
+        "controlValue": "//td[contains(text(),'{0}')]/following-sibling::td[position()=1 and contains(text(), '{1}')]/following-sibling::td[text()='{2}']/../td/input[@class='team_members selectedId']"
+    },
+    "reviewAndFinishButton": {
+        "controlType": "XPATH",
+        "controlValue": "//input[@value='Review and Finish']"
+    }
+}

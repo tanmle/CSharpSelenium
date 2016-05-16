@@ -1,0 +1,34 @@
+﻿{
+    "addAnAssessmentButton": {
+        "controlType": "XPATH",
+        "controlValue": "//button[contains(text(),'Add An Assessment')]"
+    },
+    "dynamicAssessmentTypeLabel": {
+        "controlType": "XPATH",
+        "controlValue": "//label[text()='{0}']"
+    },
+	"addAssessmentButton": {
+		"controlType": "XPATH",
+		"controlValue": "//input[@value='Add Assessment']"
+	},
+	"dynamicAssessmentLabel": {
+		"controlType": "XPATH",
+		"controlValue": "//h5[@class='light' and text()='{0}']"
+	},
+	"dynamicAssessmentParticipantLabel": {
+		"controlType": "XPATH",
+		"controlValue": "//h5[@class='light' and text()='{0}']/following-sibling::div[@class='light participants']"
+	},
+	"dynamicAssessmentDateLabel": {
+		"controlType": "XPATH",
+		"controlValue": "//h5[@class='light' and text()='{0}']/following-sibling::div[@class='status']//div[@class='date']"
+	},
+	"dynamicAssessmentStatusDiv": {
+		"controlType": "XPATH",
+		"controlValue": "//h5[@class='light' and text()='{0}']/following-sibling::div[@class='status' and @title='{1}']"
+	},
+	"dynamicAssessmentLogoLink": {
+		"controlType": "XPATH",
+		"controlValue": "//h5[@class='light' and text()='{0}']/preceding-sibling::a"
+	}
+}

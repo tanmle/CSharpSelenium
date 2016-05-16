@@ -1,0 +1,31 @@
+﻿{
+    "surveyTypeLabel": {
+        "controlType": "XPATH",
+        "controlValue": "//label[text()='Survey Type']/following-sibling::span"
+    },
+    "assessmentNameLabel": {
+        "controlType": "XPATH",
+        "controlValue": "//label[text()='Assessment Name']/following-sibling::span"
+    },
+    "facilitatorLabel": {
+        "controlType": "XPATH",
+        "controlValue": "//label[text()='Facilitator']/following-sibling::span"
+    },
+    "dynamicTeamMemberLabel": {
+        "controlType": "XPATH",
+        "controlValue": "//td[contains(text(),'{0}')]/following-sibling::td[position()=1 and contains(text(), '{1}')]/following-sibling::td[text()='{2}']"
+    }
+    ,
+    "dynamicStakeLabel": {
+        "controlType": "XPATH",
+        "controlValue": "//td[contains(text(),'{0}')]/following-sibling::td[position()=1 and contains(text(), '{1}')]/following-sibling::td[text()='{2}']"
+    },
+    "dynamicSendToRadioButton": {
+        "controlType": "XPATH",
+        "controlValue": "//label[contains(.,'{0}')]/input"
+    },
+    "publishButton": {
+        "controlType": "ID",
+        "controlValue": "publishBtn"
+    }
+}

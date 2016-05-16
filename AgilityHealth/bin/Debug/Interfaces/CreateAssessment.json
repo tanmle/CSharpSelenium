@@ -1,0 +1,18 @@
+﻿{
+    "assessmentTypeCombobox": {
+        "controlType": "XPATH",
+        "controlValue": "//select[@id='SurveyId']"
+    },
+    "nameTextbox": {
+        "controlType": "XPATH",
+        "controlValue": "//input[@id='Name']"
+    },
+    "facilitatorTextbox": {
+        "controlType": "XPATH",
+        "controlValue": "//input[@id='Facilitator']"
+    },
+    "selectTeamMembersButton": {
+        "controlType": "XPATH",
+        "controlValue": "//input[@value='Next, Select Team Members']"
+    }
+}

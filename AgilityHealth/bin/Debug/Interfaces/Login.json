@@ -1,0 +1,15 @@
+﻿{
+    "emailTextbox": {
+        "controlType": "XPATH",
+        "controlValue": "//input[@id='Email']"
+    },
+    "passwordTextbox": {
+        "controlType": "XPATH",
+        "controlValue": "//input[@id='Password']"
+    },
+    "loginButton": {
+        "controlType": "XPATH",
+        "controlValue": "//input[contains(@value,'Log in')]"
+    }    
+}
+

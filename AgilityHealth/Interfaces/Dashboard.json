@@ -1,0 +1,23 @@
+﻿{
+    "toggleDiv": {
+        "controlType": "XPATH",
+        "controlValue": "//div[@class='toggle']"
+    },
+    "toggleLink": {
+        "controlType": "XPATH",
+        "controlValue": "//a[@class='handle ico ease on']"
+    },
+    "dynamicTeamLink": {
+        "controlType": "XPATH",
+        "controlValue": "//a[contains(text(),'{0}')]"
+    },
+    "avatarDiv": {
+        "controlType": "XPATH",
+        "controlValue": "//div[@class='avatar']"
+    }
+    ,
+    "logOutLink": {
+        "controlType": "XPATH",
+        "controlValue": "//li[@class='logout']/a"
+    }
+}
